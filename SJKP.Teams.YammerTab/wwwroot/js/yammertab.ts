@@ -48,8 +48,7 @@ module SJKP.Teams.YammerTab {
         yam.connect.loginButton('#yammer-login', yammerlogincallback);       
     }
 
-    function login(reason) {
-        debugger;
+    function login(reason) {        
         console.log(reason);
         yam.getLoginStatus(yammerlogincallback);
     }
