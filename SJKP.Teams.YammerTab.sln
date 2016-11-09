@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SJKP.Teams.YammerTab", "SJKP.Teams.YammerTab\SJKP.Teams.YammerTab.xproj", "{A4096300-1740-43AB-9086-A4C6B2024925}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "SJKP.Teams.YammerTab.ResourceGroup", "SJKP.Teams.YammerTab.ResourceGroup\SJKP.Teams.YammerTab.ResourceGroup.deployproj", "{AE069032-330F-405D-81D6-A3D556F8D1EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16647347-12AE-4550-880E-C692DE9A7901}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{A4096300-1740-43AB-9086-A4C6B2024925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4096300-1740-43AB-9086-A4C6B2024925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4096300-1740-43AB-9086-A4C6B2024925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE069032-330F-405D-81D6-A3D556F8D1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE069032-330F-405D-81D6-A3D556F8D1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE069032-330F-405D-81D6-A3D556F8D1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE069032-330F-405D-81D6-A3D556F8D1EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

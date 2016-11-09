@@ -1,0 +1,29 @@
+﻿{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.2/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.2",
+  "id": "dk.sjkp.yammertab",
+  "version": "0.2",
+  "name": "Yammer Tab",
+  "developer": {
+    "name": "SJKP",
+    "websiteUrl": "https://teamsyammertab.azurewebsites.net",
+    "privacyUrl": "https://teamsyammertab.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://teamsyammertab.azurewebsites.net/termsofuse/privacy.html"
+  },
+  "description": {
+    "short": "Insert a Yammer tab",
+    "full": "Allows you to bring a Yammer group directly in to Microsoft Teams"
+  },
+  "icons": {
+    "44": "44.png",
+    "88": "88.png"
+  },
+  "accentColor": "#ffffff",
+  "configUrl": "https://teamsyammertab.azurewebsites.net/config.html",
+  "canUpdateConfig": true,
+  "needsIdentity": false,
+  "validDomains": [
+    "*.yammer.com",
+    "*.azurewebsites.net"
+  ]
+}

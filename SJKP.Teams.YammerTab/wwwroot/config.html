@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page - SJKP.Teams.YammerTab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The home page of my website" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <script type="text/javascript" data-app-id="oDm6mAqx7thDjYhe1lpyg" src="https://c64.assets-yammer.com/assets/platform_js_sdk.js"></script>
+    <script src="https://statics.teams.microsoft.com/sdk/v0.2/js/MicrosoftTeams.js"></script>
+    <span  id="refresh">
+        Wait for popup and complete login in the popup. Ensure that popups are not blocked. 
+        <button onclick="window.location.reload();">Click to complete login</button>
+    </span>
+   
+    <span id="yammer-text"></span>
+    <select id="groups" onclick="SJKP.Teams.YammerTab.select()">
+        <option value="0">Select yammer group</option>
+    </select>
+
+    <script src="js/yammertab.js"></script>
+    <script>
+        SJKP.Teams.YammerTab.setupConfig();
+    </script>
+</body>
+</html>
